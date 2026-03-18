@@ -1,17 +1,12 @@
-***
-
+---
 name: book-reader
-description: |
-AI 逐页读书技能 — 将 PDF/EPUB/MOBI/TXT 书籍逐页解析、提取知识点，
-并生成结构化读书笔记（本地 Markdown 文件输出）。
-核心思路：逐页分析 → 知识点累积 → 阶段性摘要 → 最终综合报告。
-当用户需要以下任何场景时使用此技能：读书笔记、PDF 书籍分析、读完一本书并总结、
-书籍知识提取、book analysis、read a book、PDF 分析与摘要、书籍摘要、
-阅读 PDF 并提取要点、帮我读这本书、分析这本 PDF、给我做读书笔记、
-summarize this book、extract knowledge from PDF。
-即使用户只是说"帮我看看这本书"或者"读一下这个 PDF"，也应该触发此技能。
-
-***
+description: >-
+  AI 逐页读书技能：将 PDF/EPUB/MOBI/TXT 书籍按页/章解析提取文本，分批提炼知识点，
+  生成阶段性摘要，并输出结构化的本地 Markdown 读书笔记。
+  当用户提到读书笔记、分析/总结一本书、阅读并提取要点、PDF/EPUB/MOBI/TXT 摘要或知识提取、
+  “帮我读这本书/看看这本书/分析这本 PDF”、summarize this book、extract knowledge from PDF/book 等场景时使用本技能；
+  即使用户未明确提到“skill”，只要目标是从书籍文件产出笔记/总结也应触发。
+---
 
 # AI 逐页读书技能
 
